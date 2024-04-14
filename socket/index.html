@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form onsubmit="submitForm">
+        <input name="a" id="a" type="text">
+        <button type="submit">submit</button>
+    </form>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <script>
+        let w = new WebSocket('ws://localhost:5000/')
+    </script>
+</body>
+
+</html>
